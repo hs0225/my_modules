@@ -1,0 +1,9 @@
+{
+  "modules": {
+    "sleep": {
+      "native_files": ["src/module.c"],
+      "init": "Initsleep",
+      "cmakefile": "module.cmake"
+    }
+  }
+}
